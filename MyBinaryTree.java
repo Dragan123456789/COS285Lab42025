@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 package src;
+=======
+package lab4;
+>>>>>>> 38bd188cdf2d5cbb51f96c7e867cf2ac5823b75c
 
 import java.util.*;
 
@@ -58,6 +62,7 @@ public class MyBinaryTree<E extends Comparable<E>> {
             insert(element);
         }
     }
+<<<<<<< HEAD
     
     /** Print the tree
      * @author Lucas Haskell
@@ -125,4 +130,6 @@ public class MyBinaryTree<E extends Comparable<E>> {
         	return searchRecursively(current.right, target);
         }
     }
+=======
+>>>>>>> 38bd188cdf2d5cbb51f96c7e867cf2ac5823b75c
 }

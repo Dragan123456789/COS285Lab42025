@@ -1,5 +1,6 @@
 package src;
 
+
 import java.util.*;
 import java.io.*;
 
@@ -22,6 +23,7 @@ public class Lab4 {
         
         // Add the data to the tree.
         tree.buildTree(data);
+
         
         // print the tree
         tree.bfsPrintTree();
@@ -29,7 +31,6 @@ public class Lab4 {
         // search the tree
         System.out.println(tree.search(12));
         System.out.println(tree.search(13));
-
     }
 
     /**Create a List of Integers from a given filepath with data
